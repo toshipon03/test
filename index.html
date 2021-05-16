@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-bar">
+            <h1 class="logo">
+                <img src="./img/03sroom.png" alt="03sroom">
+            </h1>
+            <div class="header-menu">
+                <ul>
+                    <li class="header-item"><a href="#">その他</a></li>
+                    <li class="header-item"><a href="#">Link</a></li>
+                    <li class="header-item"><a href="#">お問合せ</a></li>
+                </ul>
+                <button class="menu-btn"><span></span><span></span><span></span></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="top">
+            <h2 class="title">拘りのホームページ制作</h2>
+        </section>
+
+        <section class="mail">
+            <form action="confirm.php" method="post">
+                <dl>
+                    <dt><label for="name">▼お名前</label></dt>
+                    <dd><input type="text" required id="name" name="name"></dd>
+                    <dt><label for="mail">▼メールアドレス</label></dt>
+                    <dd><input type="email" required id="mail" name="mail"></dd>
+                    <dt><label for="contents">▼内容</label></dt>
+                    <dd><textarea name="contents" id="contents" cols="40" rows="10" required></textarea></dd>
+                </dl>
+                <button type="submit">確認画面へ</button>
+                <button type="reset">リセット</button>
+            </form>
+        
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
